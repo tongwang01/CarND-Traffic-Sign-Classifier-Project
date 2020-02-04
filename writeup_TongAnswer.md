@@ -95,7 +95,15 @@ I think the dropout layers could have helped preventing the modeling from overfi
 
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-I downloaded 5 German traffic signs from the web. I manually converted them into 32 x 32 pixel images. 
+I downloaded 5 German traffic signs from the web. I manually converted them into 32 x 32 pixel images. See the section below for displays of these images.
+
+Image 1 and image 2 the challenge might be to correctly identify the speed limits (e.g. 60 kph vs 30 kph). It is conceivable that a model might not easily distinguish the two.
+
+Image 3 seems relatively straightforward to classify.
+
+Image 4 and 5 have signs of somewhat complex shapes, which may be difficult for the model to pick out. 
+
+
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Following are these images and the respective predicted class names from the model.
